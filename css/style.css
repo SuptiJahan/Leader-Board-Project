@@ -104,3 +104,50 @@ h2.title {
 span {
     color: var(--acent);
 }
+/*last section*/
+.last_content{
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 32px;
+    padding-bottom: 20px;
+}
+.course_content img {
+    width: 224px;
+    height: 104px;
+}
+.latest.course {
+    display: flex;
+    justify-content: space-between;
+    margin: 21px 36px 26px 41px;
+}
+.inner-course {
+    line-height: 22px;
+    font-size: 16px;
+}
+.inner-course h5 {
+    font-size: 12px;
+    color: var(--text);
+}
+.images img {
+    width: 12px;
+    padding: 3px;
+}
+.images {
+    display: flex;
+}
+h4.point {
+    padding: 0px  21px 0px 20px;
+    color: var(--acent);
+}
+.images h5 {
+    color: orangered;
+    background: pink;
+    border-radius: 4px;
+    padding: 2px;
+}
+.section_inner {
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 3px 3px 15px;
+    border-radius: 30px;
+    border: none;}
