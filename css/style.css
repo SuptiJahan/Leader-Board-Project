@@ -134,15 +134,21 @@ span {
 .latest.course {
     display: flex;
     justify-content: space-between;
-    margin: 21px 36px 26px 41px;
+    margin: 15px 36px 26px 41px;
 }
 .inner-course {
     line-height: 22px;
     font-size: 16px;
 }
+.inner-course h4 {
+    font-size: 20px;
+    padding: 20px 0 6px 0;
+    line-height: 24px;
+}
 .inner-course h5 {
-    font-size: 12px;
+    font-size: 14px;
     color: var(--text);
+    line-height: 17px;
 }
 .images img {
     width: 12px;
@@ -155,15 +161,37 @@ h4.point {
     padding: 0px  21px 0px 20px;
     color: var(--acent);
 }
+h5 {
+    color: var(--minimum);
+    font-size: 14px;
+}
 .images h5 {
     color: orangered;
     background: pink;
     border-radius: 4px;
     padding: 2px;
 }
+.last-icon img {
+    width: 20.3px;
+    height: 20.3px;
+    padding-right:3px;
+}
 .section_inner {
     box-sizing: border-box;
     padding: 20px;
-    box-shadow: 3px 3px 15px;
-    border-radius: 30px;
-    border: none;}
+    box-shadow: 0px 5px 13px -15px;
+    border-radius: 11px;
+}
+
+.last-icon {
+    display: flex;
+    align-items: center;
+    background-color: #FFE4E8;
+    border-radius: 10px;
+    padding: 1px 3px;
+}
+.end-line {
+    display: flex;
+    align-items: center;
+    padding: 19px 0;
+}
